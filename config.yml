@@ -1,0 +1,13 @@
+polaris_vega:
+  ip: '169.254.64.122'
+  port: 8765
+  fps: 20
+  debug: False
+
+passive_tools:
+  -
+    path: 'Tool_Definition_Files\8700339.rom'
+  -
+    path: 'Tool_Definition_Files\8700340.rom'
+  -
+    path: 'Tool_Definition_Files\8700449.rom'
