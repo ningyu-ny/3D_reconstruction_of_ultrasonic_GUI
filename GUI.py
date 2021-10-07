@@ -287,8 +287,8 @@ class creat_window():
     def catch_photo(self):
         frame = self.save_frame
         tools = self.NDI.polaris_driver.get_tools()
-        Catch_photo(frame, photo_path + '/photo%d.jpg' % self.photo_num)
-        save_NDI(tools, NDI_path + '/withphotos/NDI%d.yaml' % self.photo_num)
+        Catch_photo(frame, photo_path + '/photo%03d.jpg' % self.photo_num)
+        save_NDI(tools, NDI_path + '/withphotos/NDI%03d.yaml' % self.photo_num)
         self.back_str.set('图像已保存')
         self.photo_num = self.photo_num + 1
 
